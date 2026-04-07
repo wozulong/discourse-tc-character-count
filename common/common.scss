@@ -4,6 +4,7 @@
   right: 0.4em;
   bottom: 0.25em;
   color: var(--primary-low-mid);
+  font-size: var(--font-down-1);
 
   &.more-required {
     color: var(--danger);
@@ -14,6 +15,7 @@
   .character-counts {
     margin-bottom: 0.5em;
     color: var(--primary-low-mid);
+    font-size: var(--font-down-1);
 
     &.more-required {
       color: var(--danger);
