@@ -5,5 +5,6 @@ import CharacterCounts from "../../components/character-counts";
     @missingReplyCharacters={{@outletArgs.composer.missingReplyCharacters}}
     @length={{@outletArgs.composer.replyLength}}
     @minimumLength={{@outletArgs.composer.minimumPostLength}}
+    @showWarning={{true}}
   />
 </template>
