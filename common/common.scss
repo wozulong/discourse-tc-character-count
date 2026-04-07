@@ -3,20 +3,20 @@
   position: absolute;
   right: 0.4em;
   bottom: 0.25em;
-  color: $primary-low-mid;
+  color: var(--primary-low-mid);
 
   &.more-required {
-    color: $danger;
+    color: var(--danger);
   }
 }
 
 .title-input {
   .character-counts {
     margin-bottom: 0.5em;
-    color: $primary-low-mid;
+    color: var(--primary-low-mid);
 
     &.more-required {
-      color: $danger;
+      color: var(--danger);
     }
   }
 }
