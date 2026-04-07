@@ -7,7 +7,7 @@ export default class CharacterCountComponent extends Component {
 
   get charCount() {
     return this.showRequired
-      ? `${this.args.length} / ${this.args.minimumLength}`
+      ? `${this.args.length} / ${this.args.minimumLength} 请勿用字数补丁`
       : settings.character_count_hide_count_when_sufficient
         ? ""
         : `${this.args.length}`;
